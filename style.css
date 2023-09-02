@@ -350,6 +350,9 @@ header p {
 .spotify {
   padding-top: 55px;
   background-image: url(assets/img/spotify.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   height: 568px;
   text-align: center;
 }
@@ -579,7 +582,7 @@ footer .explore p, footer .follow p, footer .drop p {
 @media screen and (max-width: 767px) {
   .first-screen .front-text .front-box {
     padding: 30px !important;
-    margin-left: 100px !important;
+    margin-left: 60px !important;
     width: 90%;
   }
   .reviews {
